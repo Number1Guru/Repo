@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.number1guruxxx" name="Number1Guru Repository XXX" version="2020.01.01" provider-name="Number1Guru">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Number1Guru Repo">
+		<dir>
+			<info compressed="false">http://number1guru.com/Kodi18/XXX/addons.xml</info>
+			<checksum>http://number1guru.com/Kodi18/XXX/addons.xml.md5</checksum>
+			<datadir zip="true">http://number1guru.com/Kodi18/XXX/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">http://number1guru.com/adult/addons.xml</info>
+			<checksum>http://number1guru.com/adult//addons.xml.md5</checksum>
+			<datadir zip="true">http://number1guru.com/adult//</datadir>
+		</dir>
+		</extension>
+	<extension point="xbmc.addon.metadata">
+			<summary lang="en"></summary>
+			<description lang="en">The Official Repo for #1 Guru XXX</description>
+			<genre>All</genre>
+			<assets>
+				<icon>adult.gif</icon>
+				<fanart>fanart.jpg</fanart>
+			</assets>
+	</extension>
+</addon>
